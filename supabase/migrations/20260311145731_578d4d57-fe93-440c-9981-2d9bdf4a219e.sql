@@ -1,0 +1,1 @@
+ALTER TABLE public.study_plans ADD COLUMN IF NOT EXISTS completions JSONB NOT NULL DEFAULT '{}'::jsonb;

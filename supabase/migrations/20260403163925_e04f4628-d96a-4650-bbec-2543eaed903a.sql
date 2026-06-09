@@ -1,0 +1,1 @@
+ALTER TABLE public.mock_test_questions ADD COLUMN image_url text DEFAULT NULL;

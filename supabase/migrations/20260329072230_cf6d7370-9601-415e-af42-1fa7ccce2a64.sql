@@ -1,0 +1,1 @@
+ALTER TABLE public.quiz_attempts ADD CONSTRAINT score_valid CHECK (score >= 0 AND score <= total_questions AND total_questions > 0);
